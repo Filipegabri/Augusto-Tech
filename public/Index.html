@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Augusto Tech - Soluções avançadas em cibersegurança para proteger sua empresa. Consultoria de TI, segurança de rede e desenvolvimento web.">
+  <meta name="keywords" content="cibersegurança, segurança de rede, consultoria de TI, desenvolvimento web">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Augusto Tech">
+  <title>Augusto Tech - Protegendo seu Futuro Digital</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="loader">
+    <span class="glitch" data-text="Augusto Tech">Augusto Tech</span>
+  </div>
+
+  <!-- Matrix Background -->
+  <canvas id="matrix-bg"></canvas>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#home" class="logo" aria-label="Augusto Tech Home">Augusto Tech</a>
+      <nav>
+        <ul class="menu" role="navigation">
+          <li><a href="#home" aria-label="Home">Home</a></li>
+          <li><a href="#services" aria-label="Serviços">Serviços</a></li>
+          <li><a href="#case-studies" aria-label="Estudos de Caso">Estudos de Caso</a></li>
+          <li><a href="#videos" aria-label="Vídeos">Vídeos</a></li>
+          <li><a href="#gallery" aria-label="Galeria">Galeria</a></li>
+          <li><a href="#contact" aria-label="Contato">Contato</a></li>
+          <li><a href="#contact" class="btn-nav" aria-label="Solicitar Demonstração">Solicitar Demonstração</a></li>
+        </ul>
+        <span class="menu-toggle" aria-label="Toggle Menu" tabindex="0"><i class="fas fa-bars"></i></span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <video autoplay muted loop class="hero-video">
+      <source src="videos/Dark-4.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <h1 data-aos="fade-up">Protegendo seu Futuro Digital</h1>
+        <p data-aos="fade-up" data-aos-delay="200">Soluções avançadas em cibersegurança para sua empresa</p>
+        <a href="#contact" class="btn" data-aos="fade-up" data-aos-delay="400">Fale Conosco</a>
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div id="particles-js" class="particles"></div>
+  </section>
+
+  <!-- Trust Signals Section -->
+  <section id="trust-signals" class="trust-signals">
+    <div class="container">
+      <h2 data-aos="fade-up">Confiado por Líderes da Indústria</h2>
+      <div class="trust-grid">
+        <img src="imagen/Biocure.Ao.webp" alt="Certificação ISO 27001" data-aos="fade-up" data-aos-delay="100">
+        <img src="imagen/movicel-2.jpg" alt="Certificação PCI DSS" data-aos="fade-up" data-aos-delay="200">
+        <img src="imagen/Netapp.AO-3.webp" alt="Parceiro 1" data-aos="fade-up" data-aos-delay="300">
+        <img src="imagen/Logo-1.png" alt="Parceiro 2" data-aos="fade-up" data-aos-delay="400">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 data-aos="fade-up">Nossos Serviços</h2>
+      <div class="services-grid">
+        <div class="service-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-user-shield"></i>
+          <h3>Consultoria de TI</h3>
+          <p>Suporte especializado para otimizar sua infraestrutura de TI.</p>
+          <div class="service-details">
+            <p>Oferecemos consultoria personalizada para transformar sua infraestrutura de TI, garantindo eficiência e segurança.</p>
+          </div>
+        </div>
+        <div class="service-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-network-wired"></i>
+          <h3>Segurança de Rede</h3>
+          <p>Proteção contra ameaças internas e externas.</p>
+          <div class="service-details">
+            <p>Implementamos soluções robustas para proteger sua rede contra ataques cibernéticos avançados.</p>
+          </div>
+        </div>
+        <div class="service-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Desenvolvimento Web</h3>
+          <p>Criação de sites seguros e modernos.</p>
+          <div class="service-details">
+            <p>Desenvolvemos websites com foco em segurança e design moderno, otimizados para sua empresa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies Section -->
+  <section id="case-studies" class="case-studies">
+    <div class="container">
+      <h2 data-aos="fade-up">Estudos de Caso</h2>
+      <div class="case-studies-grid">
+        <div class="case-study-card" data-aos="fade-up" data-aos-delay="100">
+          <img src="imagen/caso-1.webp" alt="Estudo de Caso 1">
+          <h3>Recolha de Analise</h3>
+          <p>Implementamos uma solução de segurança de rede que reduz incidentes.</p>
+          <a href="#" class="btn">Saiba Mais</a>
+        </div>
+        <div class="case-study-card" data-aos="fade-up" data-aos-delay="200">
+          <img src="imagen/caso-02.jfif" alt="Estudo de Caso 2">
+          <h3>Elaboração de Planificação com Junta</h3>
+          <p>Auxiliamos na conformidade com regulamentações, significativas.</p>
+          <a href="#" class="btn">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Videos Section -->
+  <section id="videos" class="videos">
+    <div class="container">
+      <h2 data-aos="fade-up">Vídeos em Destaque</h2>
+      <div class="videos-grid">
+        <div class="video-item" data-video="videos/DarK-2.mp4" data-aos="fade-up" data-aos-delay="100">
+          <div class="video-overlay">
+            <img src="imagen/DarK-2_000374.jpg" alt="DarK-2" class="video-thumbnail">
+            <i class="fas fa-play-circle"></i>
+            <h3>Introdução à Cibersegurança</h3>
+          </div>
+        </div>
+        <div class="video-item" data-video="videos/Dark-1.mp4" data-aos="fade-up" data-aos-delay="200">
+          <div class="video-overlay">
+            <img src="imagen/DarK-2_000495.jpg" alt="Dark-1" class="video-thumbnail">
+            <i class="fas fa-play-circle"></i>
+            <h3>Protegendo sua Rede</h3>
+          </div>
+        </div>
+        <div class="video-item" data-video="videos/Dark-3.mp4" data-aos="fade-up" data-aos-delay="300">
+          <div class="video-overlay">
+            <img src="imagen/DarK-2_000496.jpg" alt="Dark-3" class="video-thumbnail">
+            <i class="fas fa-play-circle"></i>
+            <h3>Desenvolvimento Seguro</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2 data-aos="fade-up">Galeria de Imagens</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" data-aos="fade-up" data-aos-delay="100">
+          <img src="GIF/Pen-02.gif" alt="Imagem 1">
+          <div class="gallery-caption">
+            <h3>Pentest - Web e Rede</h3>
+            <p>Soluções de ponta para proteger sua empresa.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" data-aos="fade-up" data-aos-delay="200">
+          <img src="GIF/7v54-04.gif" alt="Imagem 2">
+          <div class="gallery-caption">
+            <h3>Consultoria em Vulnerabilidade e Técnica de OSINT</h3>
+            <p>Expertise para otimizar sua infraestrutura.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" data-aos="fade-up" data-aos-delay="300">
+          <img src="GIF/Gif-Web.gif" alt="Imagem 3">
+          <div class="gallery-caption">
+            <h3>Desenvolvimento Web - AI Figma</h3>
+            <p>Sites modernos com foco em segurança.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.5" data-aos="fade-up" data-aos-delay="400">
+          <img src="GIF/Windowns-Server.gif" alt="Imagem 4">
+          <div class="gallery-caption">
+            <h3>Administrador de Windows Server e SI</h3>
+            <p>Defesa contra ameaças cibernéticas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 data-aos="fade-up">Contato</h2>
+      <form id="contact-form" action="/.netlify/functions/send" method="POST" data-aos="fade-up" data-aos-delay="200">
+        <input type="text" name="name" placeholder="Nome" required aria-label="Nome">
+        <input type="email" name="email" placeholder="E-mail" required aria-label="E-mail">
+        <textarea name="message" placeholder="Mensagem" required aria-label="Mensagem"></textarea>
+        <button type="submit" class="btn" aria-label="Enviar Mensagem">Enviar</button>
+      </form>
+      <div id="form-message" style="margin-top: 10px; color: #28a745; display: none;"></div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/+937656087?text=Olá,%20quero%20falar%20sobre%20seu%20serviço!" class="floating-whatsapp" aria-label="Fale pelo WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Voltar ao Topo"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Sobre Nós</h3>
+        <p>Augusto Tech é líder em soluções de cibersegurança, protegendo empresas com tecnologia de ponta.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Links Rápidos</h3>
+        <ul>
+          <li><a href="#home" aria-label="Home">Home</a></li>
+          <li><a href="#services" aria-label="Serviços">Serviços</a></li>
+          <li><a href="#case-studies" aria-label="Estudos de Caso">Estudos de Caso</a></li>
+          <li><a href="#videos" aria-label="Vídeos">Vídeos</a></li>
+          <li><a href="#gallery" aria-label="Galeria">Galeria</a></li>
+          <li><a href="#contact" aria-label="Contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Recursos</h3>
+        <ul>
+          <li><a href="#" aria-label="Blog">Blog</a></li>
+          <li><a href="#" aria-label="Whitepapers">Whitepapers</a></li>
+          <li><a href="#" aria-label="Suporte">Suporte</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <form id="newsletter-form">
+          <input type="email" placeholder="Seu e-mail" required aria-label="E-mail para Newsletter">
+          <button type="submit" class="btn" aria-label="Inscrever-se na Newsletter">Inscrever</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="social-links">
+      <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="footer-text">© 2025 Augusto Tech. Todos os direitos reservados.</p>
+    <p class="footer-contact">Contato: <a href="mailto:Augustogab12@gmail.com" aria-label="Enviar e-mail">Augustogab12@gmail.com</a></p>
+  </footer>
+
+  <!-- Video Modal -->
+  <div id="video-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" aria-label="Fechar Modal">×</span>
+      <video id="modal-video" controls>
+        <source src="" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="scripts.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: 'ease-out',
+      delay: 100,
+    });
+
+    // Handle form submission
+    document.getElementById("contact-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const form = e.target;
+      const formMessage = document.getElementById("form-message");
+      formMessage.style.display = "none";
+
+      const name = encodeURIComponent(form.querySelector("input[name='name']").value.trim());
+      const email = encodeURIComponent(form.querySelector("input[name='email']").value.trim());
+      const message = encodeURIComponent(form.querySelector("textarea[name='message']").value.trim());
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      console.log("Dados do formulário:", { name, email, message });
+
+      if (!name || !email || !message) {
+        formMessage.style.color = "#dc3545";
+        formMessage.textContent = "Por favor, preencha todos os campos.";
+        formMessage.style.display = "block";
+        return;
+      }
+
+      if (!emailRegex.test(decodeURIComponent(email))) {
+        formMessage.style.color = "#dc3545";
+        formMessage.textContent = "Por favor, insira um e-mail válido.";
+        formMessage.style.display = "block";
+        return;
+      }
+
+      try {
+        console.log("Enviando requisição para /.netlify/functions/send...");
+        const response = await fetch("/.netlify/functions/send", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: `name=${name}&email=${email}&message=${message}`,
+        });
+
+        const data = await response.json();
+        console.log("Resposta recebida:", response.status, data);
+
+        if (!response.ok) {
+          throw new Error(data.error || `Erro HTTP: ${response.status}`);
+        }
+
+        formMessage.style.color = "#28a745";
+        formMessage.textContent = data.message || "Mensagem enviada com sucesso!";
+        formMessage.style.display = "block";
+        form.reset();
+      } catch (error) {
+        console.error("Erro no front-end:", error);
+        formMessage.style.color = "#dc3545";
+        formMessage.textContent = `Erro: ${error.message}. Tente novamente ou contate o suporte.`;
+        formMessage.style.display = "block";
+      }
+    });
+  </script>
+</body>
+</html>
